@@ -36,11 +36,17 @@
                             <a class="nav-link active" aria-current="page" href="#"><i
                                     class="fa-solid fa-house"></i></a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                        <li class="nav-item ">
+                            <button class="btn btn-primary fundo-azul" type="button" data-bs-toggle="offcanvas"
+                                data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><img
+                                    src="imagens/logo lupa.png" width="20" alt=""></button>
+
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">LOGIN</a>
+                            <button type="button" class="btn fundo-azul" data-bs-toggle="modal"
+                                data-bs-target="#staticBackdrop">
+                                LOGIN
+                            </button>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="#">CADASTRO</a>
@@ -51,10 +57,52 @@
             </div>
         </nav>
 
-        b5navo
 
     </header>
 
+    <!--    Início off canvas com opções de pesquisa -->
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+        <div class="offcanvas-header fundo-laranja">
+            <h5 class="offcanvas-title" id="offcanvasRightLabel">Ferramenta de pesquisa</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body fundo-azul">
+            <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn fundo-azul-escuro texto-branco" type="submit">Pesquisar</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- final off canvas -->
+
+    <!-- Início Modal com login -->
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="staticBackdropLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Understood</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Final modal com login -->
+
+
+    <!-- Início Modal com cadastro -->
+
+
+    <!-- Final modal com cadastro -->
 
 
 
@@ -63,10 +111,10 @@
 
     <main class="mt-3 pt-3">
         <div class="container">
-            
+
         </div>
-           <!-- banner superior - carousel  -->
-           <div id="imagem-carousel" class="carousel slide" data-bs-ride="carousel">
+        <!-- banner superior - carousel  -->
+        <div id="imagem-carousel" class="carousel slide" data-bs-ride="carousel">
             <ol class="carousel-indicators">
                 <li data-bs-target="#imagem-carousel" data-bs-slide-to="0" class="active" aria-current="true"
                     aria-label="First slide"></li>
