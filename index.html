@@ -46,10 +46,9 @@
               </button>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#" type="button" class="btn fundo-azul"
-                data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+              <button type="button" class="btn fundo-azul" data-bs-toggle="modal" data-bs-target="#staticBackdrop2">
                 CADASTRE-SE
-                </button>
+              </button>
             </li>
           </ul>
         </div>
@@ -57,7 +56,7 @@
     </nav>
   </header>
 
-  <!--    Início off canvas com opções de pesquisa -->
+  <!--   Início off canvas com opções de pesquisa -->
   <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
     <div class="offcanvas-header fundo-laranja">
       <h5 class="offcanvas-title" id="offcanvasRightLabel">
@@ -112,7 +111,7 @@
   <!-- Final modal com login -->
 
   <!-- Início Modal com cadastro -->
-  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+  <div class="modal fade" id="staticBackdrop2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
     aria-labelledby="staticBackdropLabel" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
@@ -132,15 +131,18 @@
             <label for="" class="form-label">Senha:</label>
 
             <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="" />
-            
+
           </div>
           <div class="mb-3">
-            <label for="" class="form-label">Email:</label>
+            <label for="" class="form-label">Senha(confirmação):</label>
             <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="" />
 
           </div>
-          
+          <div class="mb-3">
+            <label for="" class="form-label">Data de Nascimento:</label>
+            <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="" />
 
+          </div>
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
@@ -149,8 +151,15 @@
           <button type="button" class="btn btn-primary">Enviar</button>
         </div>
         <a class="m-2" href="forgot-pass.html">Já possui cadastro?</a>
+        <div class="input-group mb-3 m-2">
+          <div class="input-group-text">
+            <input class="form-check-input mt-0" type="checkbox" value="" aria-label="Checkbox for following text input">
+            <label class="m-2">Concordo com os <a href="termos-condicoes.html">termos e condições</a></label>
+          </div>
+        </div>
       </div>
     </div>
+    
   </div>
 
   <!-- Final modal com cadastro -->
