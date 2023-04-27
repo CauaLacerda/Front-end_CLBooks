@@ -21,6 +21,7 @@ body{
 
 .titulo{
     color: aliceblue;
+    padding: 10PX;
 }
 
 .livros{
@@ -29,7 +30,13 @@ body{
     padding-left: 10px;
 }
 
+.botão-vermais{
+    overflow: hidden;
+}
 
+.Categoria-Academicos{
+    overflow: hidden;
+}
 
 
 
