@@ -23,6 +23,13 @@ body{
     color: aliceblue;
 }
 
+.livros{
+    height: 256px;
+    width: 180px;
+    padding-left: 10px;
+}
+
+
 
 
 
