@@ -27,7 +27,8 @@ body{
 .livros{
     height: 256px;
     width: 180px;
-    padding-left: 10px;
+    /* padding-left: 10px; */
+    margin: 5px;
 }
 
 .botão-vermais{
@@ -36,6 +37,11 @@ body{
 
 .Categoria-Academicos{
     overflow: hidden;
+}
+
+.footer{
+    text-align: left;
+    height: 400px;
 }
 
 
