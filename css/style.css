@@ -69,10 +69,15 @@ body{
 .texto-cookies{
     color: white;
     font-size: 30px;
+    margin-left: 10px;
 }
 
 .link-politica{
     color: yellow;
+}
+
+.botao-fechar-politica{
+    margin-left: 10px;
 }
 
 
