@@ -6,6 +6,10 @@
     background-color: orange;
 }
 
+.fundo-laranja-escuro{
+    background-color: orangered;
+}
+
 .fundo-azul-escuro{
     background-color: #0015FF;
 }
@@ -41,7 +45,25 @@ body{
 
 .footer{
     text-align: left;
-    height: 400px;
+    height: 300px;
+}
+
+.creditos{
+    text-align: center;
+    height: 100px;
+}
+
+.texto-creditos{
+    color: white;
+}
+
+.aviso-cookies{
+    position: fixed;
+    bottom: 50px;
+    height: 100px;
+    background-color: black;
+    width: 100%;
+
 }
 
 
