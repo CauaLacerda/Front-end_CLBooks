@@ -1,5 +1,12 @@
-var btFechar = document.querySelector('.aviso-cookies botao-fechar-politica')
-var aviso = document.getElementsByClassName('aviso')
+var btn = document.getElementsByClassName('.botao-fechar-cookies');
+var div = document.getElementsByClassName('.aviso-cookies');
 
-btFechar.addEventListener('click', () => {
-    aviso.style.display = 'none'})
+btn.addEventListener('click', function(){
+
+    if(div.style.display === 'block') {
+        div.style.display = 'none';
+    }
+
+    
+
+});

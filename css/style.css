@@ -76,10 +76,13 @@ body{
     color: yellow;
 }
 
-.botao-fechar-politica{
+.botao-fechar-cookies{
     margin-left: 10px;
 }
 
+.hide{
+    display: none;
+}
 
 
 
