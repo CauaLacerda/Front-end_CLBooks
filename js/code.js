@@ -1,12 +1,6 @@
-var btn = document.getElementsByClassName('.botao-fechar-cookies');
-var div = document.getElementsByClassName('.aviso-cookies');
+var btn = document.querySelector('.botao-fechar-cookies');
+var div = document.querySelector('.aviso-cookies');
 
 btn.addEventListener('click', function(){
-
-    if(div.style.display === 'block') {
-        div.style.display = 'none';
-    }
-
-    
-
+    div.style.display = 'none';
 });
