@@ -11,7 +11,7 @@
 }
 
 .fundo-azul-escuro{
-    background-color: #0015FF;
+    background-color: #0062ff;
 }
 
 .texto-branco{
@@ -84,11 +84,27 @@ body{
     display: none;
 }
 
+.img-termos{
+    margin-bottom: 20px;
+    width: 80%;
+    border-radius: 50px
+
+}
+
+.accordion-button{
+    height: 200px;
+}
+
+
+
+
+
  
 
 #imagem-carousel{
     width: 100%;   
 }
+
 
 
 
