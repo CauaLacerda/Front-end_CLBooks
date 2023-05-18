@@ -51,12 +51,30 @@ body {
 .footer {
   text-align: left;
   height: 300px;
+  display: none;
 }
 
 .creditos {
   text-align: center;
   height: 100px;
+  display: none;
 }
+
+
+.footer-small {
+  text-align: left;
+  height: 450px;
+}
+
+.creditos-small {
+  text-align: center;
+  height: 100px;
+}
+
+.img-footer-small{
+  height: 100px;
+}
+
 
 .texto-creditos {
   color: white;
@@ -129,6 +147,21 @@ body {
 #imagem-carousel {
   width: 100%;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
