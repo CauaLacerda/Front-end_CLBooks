@@ -48,32 +48,74 @@ body {
   overflow: hidden;
 }
 
+
+
 .footer {
   text-align: left;
   height: 300px;
   display: none;
 }
 
+@media screen and (min-width: 1024px) {
+  .footer {
+    display: block;
+  }
+}
+
+
 .creditos {
   text-align: center;
-  height: 100px;
+  height: 200px;
   display: none;
+}
+
+@media screen and (min-width: 1024px) {
+  .creditos {
+    display: block;
+  }
 }
 
 
 .footer-small {
   text-align: left;
   height: 450px;
+  display: none;
+  
 }
+
+@media screen and (max-width: 768px) {
+  .footer-small {
+    display: block;
+  }
+}
+
 
 .creditos-small {
   text-align: center;
   height: 100px;
+  display: none;
 }
+
+@media screen and (max-width: 768px) {
+  .creditos-small {
+    display: block;
+  }
+}
+
+
 
 .img-footer-small{
   height: 100px;
+  display: none;
 }
+
+@media screen and (max-width: 768px) {
+  .img-footer-small {
+    display: block;
+  }
+}
+
+
 
 
 .texto-creditos {
