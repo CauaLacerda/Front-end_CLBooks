@@ -52,7 +52,7 @@ body {
 
 .footer {
   text-align: left;
-  height: 300px;
+  /* height: 300px; */
   display: none;
 }
 
@@ -77,15 +77,14 @@ body {
 
 
 .footer-small {
-  text-align: left;
-  height: 450px;
-  display: none;
-  
+  text-align: left;  
+  display: none;  
 }
 
 @media screen and (max-width: 768px) {
   .footer-small {
     display: block;
+    height: 450px;
   }
 }
 
@@ -190,15 +189,9 @@ body {
 }
 
 
-
-
-
-
-
 #imagem-carousel {
   width: 100%;
 }
-
 
 
 
