@@ -1,9 +1,9 @@
 .fundo-azul {
-  background-color: rgb(149, 204, 236);
+  background-color: #0093E9;
 }
 
 .fundo-laranja {
-  background-color: orange;
+  background-color:  #fdbb2d;
 }
 
 .fundo-laranja-escuro {
@@ -20,7 +20,8 @@
 
 
 body {
-  background-color: rgb(149, 204, 236);
+  background-color: #0093E9;
+
 }
 
 .titulo {
